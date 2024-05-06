@@ -1,0 +1,35 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Bubble sort works by repeatedly stepping through the list to be sorted,
+                  comparing each pair of adjacent items,
+                   and swapping them if they are in the wrong order.
+                   So the timing is more then two other's and i can assume this is bouble sort
+
+reversed50000.txt ->6.218s
+sorted50000.txt ->1.197s
+
+
+sort2 uses: Merge Sort
+
+How do you know?: Merge sort is a divide-and-conquer algorithm that recursively divides the input list into two halves,
+sorts each half, and then merges the sorted halves.
+It has a time complexity of O(n log n) in all cases, making it more efficient than bubble sort and selection
+sort for large lists.  So as we can see the diffrance between bouble sort and selection sort it was first position,
+so i can assume that it is selection sort
+
+reversed50000.txt ->1.422s
+
+
+
+
+sort3 uses: Selection Sort
+
+How do you know?: Selection sort divides the input list into two parts: a sorted sublist and an unsorted sublist.
+It repeatedly selects the smallest (or largest) element from the unsorted sublist and moves it to the end of the sorted sublist.
+It also has a time complexity of O(n^2) in all cases, making it inefficient for large lists.
+So as we can see the diffrance between bouble sort and merge sort it was second position,
+so i can assume that it is selection sort.
+
+reversed50000.txt ->3.222s
+sorted50000.txt ->0.291s
+
