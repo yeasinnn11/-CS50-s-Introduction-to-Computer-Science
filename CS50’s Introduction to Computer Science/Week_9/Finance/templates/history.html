@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction History</title>
+</head>
+<body>
+    <h1>Transaction History</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>Transaction Type</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for transaction in transactions %}
+            <tr>
+                <td>{{ transaction.symbol }}</td>
+                <td>{{ transaction.shares }}</td>
+                <td>{{ transaction.price }}</td>
+                <td>{{ transaction.transaction_type }}</td>
+                <td>{{ transaction.transacted_at }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
