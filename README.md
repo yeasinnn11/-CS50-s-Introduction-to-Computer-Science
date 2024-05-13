@@ -8,6 +8,6 @@
 
 <h3 align="center">CS50's Introduction to Computer Science</h3>
 
-<h3 align="center">Associated skills:Finance, JavaScript (Programming Language), Algorithms, Security Software, Forensic Sciences, Data Structures, C (Programming Language), Computer Science, Resource Management, SQL (Programming Language), Cascading Style Sheets (CSS), HyperText Markup Language (HTML), Cryptography, Python (Programming Language)(Programming Language), Python (Programming Language)</h3>
+<h3 align="center">Associated skills:Finance, JavaScript (Programming Language), Algorithms, Security Software, Forensic Sciences, Data Structures, C (Programming Language), Computer Science, Resource Management, SQL (Programming Language), Cascading Style Sheets (CSS), HyperText Markup Language (HTML), Cryptography,Python (Programming Language)</h3>
 
 <img src="CS50x.png" alt="CS50x Picture">
